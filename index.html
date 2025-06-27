@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Estudiantes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div id="caja">
+        <section id="ingreso" >
+            <h2>Inserte los datos del alumno</h1>
+            <div id="inputs">
+                <input type="text" id="nombre" placeholder="Ingresar nombre">
+                <input type="number" id="edad" placeholder="Ingresar edad">
+                <select id="grado">
+                    <option value="" disabled selected>Seleccione un grado</option>
+                </select>
+                <select id="profesor">
+                    <option value="" disabled selected>Seleccione un profesor</option>
+                </select>
+                <button id="btn">Ingresar</button>
+                <p id="error"></p>
+            </div>
+        </section>
+        <section id="tabla">
+            <select id="gradoFiltro">
+                <option value="" disabled selected>Filtrar por grado</option>
+            </select>
+            <table id="datos">
+    
+            </table>
+        </section>
+    </div>
+   
+    <section id="profe" class="contenedor">
+        <p>Elija un profesor para mostrar sus datos:</p>
+        <select id="profeDatos">
+            <option value="" disabled selected>Seleccione un profesor</option>
+        </select>
+        <p id="datos2"></p>
+    </section>
+    <script src="js/datos.js"></script>
+    <script src="js/codigo.js"></script>
+</body>
+
+</html>

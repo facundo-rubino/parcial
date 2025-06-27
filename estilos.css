@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#error{
+    color: red;
+    font-weight: bold;
+  
+    padding: 0.7em;
+    margin-top: 1em;
+}
+
+table, th, td {
+    border: 1px solid rgb(95, 92, 87);
+    border-collapse: collapse;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#ingreso, #tabla, #profe{
+    background-color: rgb(250, 247, 240);
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 10px;
+}
+
+h2{
+    padding: 1em;
+    color: rgb(80, 77, 73);
+}
+
+.contenedor{
+    max-width: 900px;
+    margin: auto;
+}
+
+#inputs, #tabla{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input, select {
+    width: 400px;
+    justify-content: center;
+    margin-bottom: 1em;
+    display: inline-block;
+    border: none;
+    padding: 0.5em;
+    border-bottom: 1px solid rgb(59, 57, 54);
+    background-color: rgb(240, 238, 234);
+
+}
+
+input::placeholder{
+    color: rgb(95, 92, 89);
+}
+
+button{
+    width: 200px;
+    background-color: rgb(95, 92, 87);
+    border-radius: 40px;
+    border: none;
+    padding: 0.3em;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+table{
+    background-color: rgb(236, 234, 230);
+    margin-bottom: 1em;
+}
+
+#profe{
+    margin-bottom: 2em;
+}
+
+#profe p{
+    margin-bottom: 1em;
+}
+
+#profe select{
+    margin: 1em;
+    width: 20%;
+}
+
+#profe :nth-child(1){
+    font-weight: bold;
+}
+
+#caja{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+}
